@@ -12,11 +12,11 @@
   "env": {
     "APP_NAME": {
       "description": "The name of the Heroku application.",
-      "value": "<your_app_name>"
+      "value": "k-townbtc charge"
     },
     "CORS_ORIGINS": {
       "description": "A comma-delimited list of origins to accept requests from, e.g., \"https://your_domain.com,https://your_other_domain.com\". See https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS for more info.",
-      "value": "<your_cors_origins>"
+      "value": "https://www.k-townbtc.com,https://k-townbtc.com"
     },
     "CURRENCY": {
       "description": "The currency to use when submitting charges.",
@@ -24,7 +24,7 @@
     },
     "ERROR_REDIRECT_URI": {
       "description": "The URI to redirect to if the charge fails.",
-      "value": "<your_error_redirect_uri>"
+      "value": "https://www.k-townbtc.com/error.html"
     },
     "SENTRY_DSN": {
       "description": "Log application errors to a Sentry instance (optional).",
@@ -34,7 +34,7 @@
     "STRIPE_SECRET_KEY": "<your_stripe_secret_key>",
     "SUCCESS_REDIRECT_URI": {
       "description": "The URI to redirect to if the charge is successful.",
-      "value": "<your_success_redirect_uri>"
+      "value": "https://www.k-townbtc.com/success.html"
     }
   }
 }
